@@ -163,14 +163,6 @@ const img = btn.querySelector(".music");
 let isPlaying = false;
 
 // Пытаемся запустить музыку при загрузке
-audio
-  .play()
-  .then(() => {
-    isPlaying = true;
-  })
-  .catch(() => {
-    img.data = "./img/off.svg";
-  });
 
 // Управление по клику
 btn.addEventListener("click", () => {
