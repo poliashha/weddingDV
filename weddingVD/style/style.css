@@ -185,6 +185,7 @@ body {
 .text-audio {
   font-size: 15px;
   line-height: 184%;
+  font-family: var(--main-font);
 }
 
 .black-line {
@@ -272,7 +273,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 27px;
+  gap: 14px;
+}
+
+.text-location{
+  margin-bottom: 25px;
 }
 
 .map-button {
@@ -468,7 +473,7 @@ body {
 }
 
 /* Индивидуальное позиционирование */
-.one::after { content: "1"; bottom: 6px; left: -13px; }
+.one::after { content: "1"; bottom: 6px; left: -17px; }
 .two::after { content: "2"; bottom: 23px; left: -25px; }
 .three::after { content: "3"; bottom: 27px; left: -25px; }
 .four::after { content: "4"; bottom: -13px; left: -25px; }
